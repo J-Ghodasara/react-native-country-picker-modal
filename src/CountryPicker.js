@@ -242,8 +242,6 @@ export default class CountryPicker extends Component {
   }
 
   onClose = () => {
-
-
     const filteredCountries = this.state.cca2List
     this._flatList.scrollToOffset({ offset: 0 });
 
